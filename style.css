@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#continer{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #225564;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: start;
+    gap: 10px;
+
+}
+.nota{
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #47798c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #1616166b 10px 10px 10px;
+}
+
+#nova{
+    display: flex;
+    font-size: 7rem;
+    font-weight: bold;
+}
+#inquerito{
+    display: none;
+}
+
+input, .titolo{
+    height: 40px;
+    width: 90%;
+    background-color: aliceblue;
+    color: #000;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: #00000079 5px 5px 5px;
+}
+textarea{
+    height: 250px;
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    box-shadow: #00000079 5px 5px 5px;
+}
+
+.dest{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    justify-content: space-between;
+
+}
+#cor{
+    width: 90px;
+}
+button{
+    height: 40px;
+    width: 70px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: #00000079 5px 5px 5px;
+}
+
+#salvar{
+    background-color: #10e067;
+}
+#cancelar{
+    background-color: #f10e3f;
+}
+
+.texto{
+    height: 280px;
+    width: 90%;
+    background-color: #7aa9bf;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    box-shadow: #00000079 5px 5px 5px;
+
+}
+.dest2{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button img{
+    width: 20px;
+}
+p{
+    margin: 5px;
+    text-align: justify;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-mz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>notas</title>
+</head>
+<body>
+    <div id="continer">
+        <div class="nota" id="nova" onclick="bloco.comessar()">
+            +
+        </div>
+            
+        <div class="nota" id="inquerito">
+            <input type="text" id="titolo" placeholder="Titolo">
+            <textarea name="nota" id="txtn"></textarea>
+            <div class="dest">
+                <input type="color" name="cor" id="cor">
+                <button id="cancelar" onclick="bloco.cancelar()">Cancelar</button>
+                <button id="salvar" onclick="bloco.salvar()">Salvar</button>
+            </div>
+        </div>
+
+        <!--<div class="nota">
+            <div class="titolo">
+                <h3></h3>
+            </div>
+            <div class="texto">
+                <p></p>
+            </div>
+            <div class="dest2">
+                <button><img src="icons/delete.png" alt="">Eliminar</button>
+                <button><img src="icons/edit.png" alt="">Editar</button>
+            </div>
+        </div>-->
+
+         
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
